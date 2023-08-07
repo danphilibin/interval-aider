@@ -4,6 +4,10 @@ This project demos how you can instruct an AI agent to build interactive Node.js
 
 🚧 This is an experiment! The [documentation](./DOCS.md) provided to `aider` is a hand-written subset of the full [Interval docs](https://interval.com/docs/installation) and is optimized for instructing an AI agent how to build Interval apps.
 
+Demo video:
+
+https://github.com/danphilibin/interval-aider/assets/180350/6a5485dc-f7ec-4a9b-ae53-d71a5eeaf8d1
+
 ## Getting started
 
 Clone this repository and install dependencies. Sign up for a free [Interval](https://interval.com) account and add your personal development key to a `.env` file as `INTERVAL_API_KEY`.
