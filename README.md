@@ -1,14 +1,16 @@
 # Interval x Aider
 
-This project demos how you can instruct an AI agent to build interactive Node.js scripts (personal scripts, internal tools, etc) using [Interval](https://interval.com) and [`aider`](https://aider.chat), a command-line tool for writing and editing code wit OpenAI's GPT models.
+This project demos how you can instruct an AI agent to build interactive Node.js scripts (personal scripts, internal tools, etc) using [Interval](https://interval.com) and [`aider`](https://aider.chat), a command-line tool for writing and editing code with OpenAI's GPT models.
 
 🚧 This is an experiment! The [documentation](./DOCS.md) provided to `aider` is a hand-written subset of the full [Interval docs](https://interval.com/docs/installation) and is optimized for instructing an AI agent how to build Interval apps.
 
 ## Getting started
 
-Follow the [Getting Started instructions](https://aider.chat/#getting-started) to install `aider` on your machine.
+Clone this repository and install dependencies. Sign up for a free [Interval](https://interval.com) account and add your personal development key to a `.env` file as `INTERVAL_API_KEY`.
 
-Clone this repository and install dependencies, then run the `dev` command to start your Interval dev server:
+Next, follow the [Getting Started instructions](https://aider.chat/#getting-started) to install `aider` on your machine.
+
+You'll need two terminal sessions. First, start the Interval dev server with the `dev` command:
 
 ```
 yarn dev
